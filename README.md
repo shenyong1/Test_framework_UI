@@ -2,7 +2,7 @@
 1、bin—>run.py：主函数，运行用例，生成报告发送邮件
 2、conf—>path.py：测试用例、日志、报告等所有存放路径配置
 3、conf—>setting.py：环境配置，如：邮件、日志、数据库等配置
-4、lib—>page—>app—>dingdang_case.py：各个case的具体实现
+4、lib—>page—>page.py：各个case的具体实现
 5、lib：框架的基本工具
    lib—>log.py：管理日志
    lib—>pyse.py：UI基本操作方法的二次封装，如：单击、双击、捕捉元素、显式等待。。。
@@ -30,5 +30,5 @@
 
 
 运行用例
-1、运行：bin—>dingdang_run.py
+1、运行：bin—>run.py
 
